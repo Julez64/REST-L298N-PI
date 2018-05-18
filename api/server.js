@@ -32,8 +32,8 @@ let reverseLeft = () => {
 }
 
 let reverseRight = () => {
-	gp24.set(1)
-	gp26.set(0)
+	gp24.set(0)
+	gp26.set(1)
 }
 
 let forward = () => {
