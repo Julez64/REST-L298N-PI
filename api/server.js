@@ -3,11 +3,11 @@ let keypress = require('keypress')
 let process = require('process')
 let sleep = require('thread-sleep')
 
-let gp24 = gpio.export(24, 'out')
-let gp26 = gpio.export(26, 'out')
+let gp24 = gpio.export(8, 'out')
+let gp26 = gpio.export(7, 'out')
 
-let gp19 = gpio.export(19, 'out')
-let gp21 = gpio.export(21, 'out')
+let gp19 = gpio.export(10, 'out')
+let gp21 = gpio.export(9, 'out')
 
 let state = {
 	forward: false,
