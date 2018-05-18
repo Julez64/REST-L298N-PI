@@ -132,6 +132,18 @@ process.stdin.on('keypress', function (ch, key) {
 	if(key && key.name == 'space') {
 		halt()
 	}
+	if(key && key.name == 'u') {
+		forwardRight()
+	}
+	if(key && key.name == 'j') {
+		reverseRight()
+	}
+	if(key && key.name == 'h') {
+		reverseLeft()
+	}
+	if(key && key.name == 'y') {
+		forwardLeft()
+	}
 })
 
 process.stdin.setRawMode(true)
