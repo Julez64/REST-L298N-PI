@@ -1,0 +1,29 @@
+{
+  "name": "rest-l298n-pi",
+  "version": "0.0.1",
+  "description": "A rest api for controlling a L298N on a pi",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntrybotJS/REST-L298N-PI.git"
+  },
+  "keywords": [
+    "pi",
+    "rest",
+    "l298n",
+    "rest",
+    "api"
+  ],
+  "author": "Julien Ferluc (ferluc.julien@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EntrybotJS/REST-L298N-PI/issues"
+  },
+  "homepage": "https://github.com/EntrybotJS/REST-L298N-PI#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
