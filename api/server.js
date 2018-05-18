@@ -65,8 +65,8 @@ let right = () => {
 		halt()
 	}
 
-	reverseLeft()
-	forwardRight()
+	reverseRight()
+	forwardLeft()
 
 	state.right = true
 	console.log(state)
@@ -77,8 +77,8 @@ let left = () => {
 		halt()
 	}
 
-	reverseRight()
-	forwardLeft()
+	reverseLeft()
+	forwardRight()
 
 	state.left = true
 	console.log(state)
