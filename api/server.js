@@ -37,51 +37,39 @@ let reverseRight = () => {
 }
 
 let forward = () => {
-	if(state.backwards) {
-		halt()
-	}
+	halt()
 
 	forwardLeft()
 	forwardRight()
 
 	state.forward = true
-	console.log(state)
 }
 
 let backwards = () => {
-	if(state.forward) {
-		halt()
-	}
+	halt()
 
 	reverseLeft()
 	reverseRight()
 
 	state.backwards = true
-	console.log(state)
 }
 
 let right = () => {
-	if(state.left) {
-		halt()
-	}
+	halt()
 
 	reverseRight()
 	forwardLeft()
 
 	state.right = true
-	console.log(state)
 }
 
 let left = () => {
-	if(state.right) {
-		halt()
-	}
+	halt()
 
 	reverseLeft()
 	forwardRight()
 
 	state.left = true
-	console.log(state)
 }
 
 let halt = () => {
